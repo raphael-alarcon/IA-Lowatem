@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="vdi-dev2-067" name="lowatem.IALowatemTest" skipped="0" tests="1" time="37.892" timestamp="2022-01-04T19:39:40">
+<testsuite errors="0" failures="0" hostname="vdi-dev2-011" name="lowatem.IALowatemTest" skipped="0" tests="1" time="27.219" timestamp="2022-01-06T17:12:43">
   <properties>
-    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
-    <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
+    <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="java.specification.version" value="11" />
-    <property name="libs.spring-framework500.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-aop-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-aspects-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-beans-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-context-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-context-indexer-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-context-support-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-core-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-expression-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-instrument-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-jcl-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-jdbc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-jms-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-messaging-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-orm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-oxm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-test-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-tx-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-web-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-webflux-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-websocket-5.2.9.RELEASE.jar" />
+    <property name="libs.spring-framework500.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-aop-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-aspects-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-beans-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-indexer-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-support-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-core-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-expression-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-instrument-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jcl-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jdbc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jms-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-messaging-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-orm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-oxm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-test-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-tx-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-web-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-webflux-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-websocket-5.2.9.RELEASE.jar" />
     <property name="jar.index.metainf" value="false" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
-    <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-aop-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-aspects-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-beans-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-context-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-context-support-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-core-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-expression-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-instrument-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-jdbc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-jms-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-messaging-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-orm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-oxm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-test-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-tx-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-web-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-websocket-4.3.29.RELEASE.jar" />
+    <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-aop-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-aspects-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-beans-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-context-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-context-support-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-core-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-expression-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-instrument-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-jdbc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-jms-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-messaging-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-orm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-oxm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-test-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-tx-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-web-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-websocket-4.3.29.RELEASE.jar" />
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="do.jlink" value="false" />
     <property name="debug-transport" value="dt_shmem" />
     <property name="libs.javaee-web-api-8.0.src" value="" />
     <property name="java.vendor.url" value="https://openjdk.java.net/" />
     <property name="debug.modulepath" value="" />
-    <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
-    <property name="sun.boot.library.path" value="C:\Java\jdk-11\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner lowatem.IALowatemTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\GitProg\algoprogs1\Lowatem\build\test\results\TEST-lowatem.IALowatemTest.xml crashfile=V:\GitProg\algoprogs1\Lowatem\build\junitvmwatcher922895207604234463.properties propsfile=V:\GitProg\algoprogs1\Lowatem\build\junit12213702004708984524.properties" />
+    <property name="sun.boot.library.path" value="C:\java\jdk-11\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner lowatem.IALowatemTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\GitProg\algoprogs1\Lowatem\build\test\results\TEST-lowatem.IALowatemTest.xml crashfile=V:\GitProg\algoprogs1\Lowatem\build\junitvmwatcher14815769957672151358.properties propsfile=V:\GitProg\algoprogs1\Lowatem\build\junit8972342678828611515.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -27,36 +27,36 @@
     <property name="application.vendor" value="olivier" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-    <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
     <property name="netbeans.default_userdir_root" value="C:\Users\ralarcon\AppData\Roaming\NetBeans" />
     <property name="libs.spring-framework500.javadoc" value="" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
-    <property name="jdk.home" value="C:\Java\jdk-11" />
+    <property name="jdk.home" value="C:\java\jdk-11" />
     <property name="java.runtime.version" value="11.0.12+8-LTS-237" />
     <property name="libs.eclipselink.maven-pom" value="" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="sun.java2d.noddraw" value="true" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
-    <property name="jnidispatch.path" value="C:\Users\ralarcon\AppData\Local\Temp\jna-190451124\jna15481372140973366153.dll" />
+    <property name="jnidispatch.path" value="C:\Users\ralarcon\AppData\Local\Temp\jna-190451124\jna16528471676205343128.dll" />
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.jsf12.src" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
     <property name="libs.groovy-all.maven-pom" value="" />
     <property name="java.vendor.version" value="18.9" />
     <property name="libs.restapi.src" value="" />
-    <property name="libs.junit_5.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-api-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-params-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-engine-5.6.0-javadoc.jar" />
+    <property name="libs.junit_5.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-api-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-params-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-engine-5.6.0-javadoc.jar" />
     <property name="dist.archive.excludes" value="" />
     <property name="java.io.tmpdir" value="C:\Users\ralarcon\AppData\Local\Temp\" />
     <property name="java.version" value="11.0.12" />
-    <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
+    <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="java.library.path" value="C:\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Ruby26-x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\wapt;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;c:\Program Files\PuTTY\;c:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Azure Data Studio\bin;c:\php;C:\Program Files\Git\cmd;C:\Program Files (x86)\Citrix\HDX\bin\;C:\Program Files\Citrix\HDX\bin\;C:\Program Files\dotnet\;C:\Users\ralarcon\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.library.path" value="C:\java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Ruby26-x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\wapt;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;c:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Azure Data Studio\bin;c:\php;C:\Program Files\Git\cmd;C:\Program Files (x86)\Citrix\HDX\bin\;C:\Program Files\Citrix\HDX\bin\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\ralarcon\AppData\Local\Microsoft\WindowsApps;;." />
     <property name="libs.hamcrest.src" value="" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="libs.groovy-all.src" value="" />
-    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\platform\docs\testng-6.13.1-javadoc.jar" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\testng-6.13.1-javadoc.jar" />
     <property name="meta.inf.dir" value="src/META-INF" />
     <property name="run.upgrademodulepath" value="" />
     <property name="compile.on.save" value="false" />
@@ -74,10 +74,10 @@
     <property name="org.openide.specification.version" value="6.2" />
     <property name="user.timezone" value="" />
     <property name="jar.index" value="false" />
-    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\javax.persistence-2.2.1.jar" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\javax.persistence-2.2.1.jar" />
     <property name="java.vm.specification.version" value="11" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
-    <property name="libs.junit_5.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
+    <property name="libs.junit_5.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
     <property name="javadoc.noindex" value="false" />
     <property name="javadoc.private" value="false" />
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
@@ -95,30 +95,30 @@
     <property name="build.compiler.emacs" value="true" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="dist.jar" value="dist/Lowatem.jar" />
-    <property name="libs.jakartaee-web-api-9.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-9.0.0.jar" />
-    <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.29.RELEASE.jar" />
+    <property name="libs.jakartaee-web-api-9.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-9.0.0.jar" />
+    <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.29.RELEASE.jar" />
     <property name="modules.supported.internal" value="true" />
-    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="os.version" value="10.0" />
-    <property name="netbeans.home" value="C:\Program Files\NetBeans-12.4\netbeans\platform" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans-12.6\netbeans\platform" />
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="libs.jsf20.src" value="" />
-    <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="unnamed.module.internal" value="true" />
-    <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
-    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
-    <property name="libs.restapi.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jaxrs-2.0\javax.ws.rs-api-2.0.jar" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.restapi.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jaxrs-2.1\jakarta.ws.rs-api-2.1.6.jar" />
     <property name="os.arch" value="amd64" />
     <property name="build.generated.dir" value="build/generated" />
     <property name="libs.groovy-all.javadoc" value="" />
-    <property name="libs.jakartaee-api-8.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-8.0.0.jar" />
-    <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jakartaee-api-8.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-8.0.0.jar" />
+    <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
     <property name="libs.jsf12.maven-pom" value="" />
-    <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
     <property name="libs.primefaces.maven-pom" value="" />
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
@@ -126,20 +126,20 @@
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="default.javac.target" value="11" />
     <property name="javac.fork" value="true" />
-    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\javax.persistence-2.2.1.jar" />
-    <property name="libs.struts.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-9.1.0.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\javax.persistence-2.2.1.jar" />
+    <property name="libs.struts.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="testng.mode" value="testng" />
     <property name="annotation.processing.enabled.in.editor" value="false" />
     <property name="ant.file.type.Lowatem" value="file" />
     <property name="java.vm.compressedOopsMode" value="32-bit" />
-    <property name="netbeans.productversion" value="Apache NetBeans IDE 12.4" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 12.6" />
     <property name="ant.file.Lowatem-impl" value="V:\GitProg\algoprogs1\Lowatem\nbproject\build-impl.xml" />
     <property name="mkdist.disabled" value="false" />
-    <property name="libs.javaee-web-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-web-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
-    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\groovy\modules\ext\groovy.jar;C:\Program Files\NetBeans-12.4\netbeans\groovy\modules\ext\groovy-ant.jar" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\groovy\modules\ext\groovy-3.0.8.jar;C:\Program Files\NetBeans-12.6\netbeans\groovy\modules\ext\groovy-ant-3.0.8.jar" />
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="module.build.classes.dir" value="build/classes" />
     <property name="libs.jaxb.maven-pom" value="" />
@@ -151,17 +151,17 @@
     <property name="netbeans.autoupdate.variant" value="" />
     <property name="javadoc.version" value="false" />
     <property name="libs.metro.src" value="" />
-    <property name="libs.metro.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\metro\webservices-tools.jar" />
-    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.metro.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-tools.jar" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="sun.os.patch.level" value="" />
     <property name="javadoc.html5" value="false" />
-    <property name="javac.test.processorpath" value=":build/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javac.test.processorpath" value=":build/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.javaee-web-api-8.0.maven-pom" value="" />
-    <property name="netbeans.dirs" value="C:\Program Files\NetBeans-12.4\netbeans\nb;C:\Program Files\NetBeans-12.4\netbeans\ergonomics;C:\Program Files\NetBeans-12.4\netbeans\ide;C:\Program Files\NetBeans-12.4\netbeans\extide;C:\Program Files\NetBeans-12.4\netbeans\java;C:\Program Files\NetBeans-12.4\netbeans\apisupport;C:\Program Files\NetBeans-12.4\netbeans\webcommon;C:\Program Files\NetBeans-12.4\netbeans\websvccommon;C:\Program Files\NetBeans-12.4\netbeans\enterprise;C:\Program Files\NetBeans-12.4\netbeans\mobility;C:\Program Files\NetBeans-12.4\netbeans\profiler;C:\Program Files\NetBeans-12.4\netbeans\python;C:\Program Files\NetBeans-12.4\netbeans\php;C:\Program Files\NetBeans-12.4\netbeans\identity;C:\Program Files\NetBeans-12.4\netbeans\harness;C:\Program Files\NetBeans-12.4\netbeans\cnd;C:\Program Files\NetBeans-12.4\netbeans\cndext;C:\Program Files\NetBeans-12.4\netbeans\cpplite;C:\Program Files\NetBeans-12.4\netbeans\dlight;C:\Program Files\NetBeans-12.4\netbeans\groovy;C:\Program Files\NetBeans-12.4\netbeans\extra;C:\Program Files\NetBeans-12.4\netbeans\javacard;C:\Program Files\NetBeans-12.4\netbeans\javafx" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans-12.6\netbeans\nb;C:\Program Files\NetBeans-12.6\netbeans\ergonomics;C:\Program Files\NetBeans-12.6\netbeans\ide;C:\Program Files\NetBeans-12.6\netbeans\extide;C:\Program Files\NetBeans-12.6\netbeans\java;C:\Program Files\NetBeans-12.6\netbeans\apisupport;C:\Program Files\NetBeans-12.6\netbeans\webcommon;C:\Program Files\NetBeans-12.6\netbeans\websvccommon;C:\Program Files\NetBeans-12.6\netbeans\enterprise;C:\Program Files\NetBeans-12.6\netbeans\mobility;C:\Program Files\NetBeans-12.6\netbeans\profiler;C:\Program Files\NetBeans-12.6\netbeans\python;C:\Program Files\NetBeans-12.6\netbeans\php;C:\Program Files\NetBeans-12.6\netbeans\identity;C:\Program Files\NetBeans-12.6\netbeans\harness;C:\Program Files\NetBeans-12.6\netbeans\cnd;C:\Program Files\NetBeans-12.6\netbeans\cndext;C:\Program Files\NetBeans-12.6\netbeans\cpplite;C:\Program Files\NetBeans-12.6\netbeans\dlight;C:\Program Files\NetBeans-12.6\netbeans\groovy;C:\Program Files\NetBeans-12.6\netbeans\extra;C:\Program Files\NetBeans-12.6\netbeans\javacard;C:\Program Files\NetBeans-12.6\netbeans\javafx" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.processorpath" value="" />
-    <property name="libs.javaee-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
     <property name="javac.upgrademodulepath" value="" />
     <property name="run.modulepath" value="" />
@@ -176,37 +176,37 @@
     <property name="javac.test.sourcepath" value="V:\GitProg\algoprogs1\Lowatem\build\empty" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="includes" value="**" />
-    <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="javadoc.splitindex" value="true" />
-    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="junit.available" value="true" />
     <property name="javac.processormodulepath" value="" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="libs.jstl.src" value="" />
-    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0fcdf686b-742c-4e52-a103-2e74ac6f4b00_5aa68d11-c2e2-4d76-bafb-0361f5a9df70" />
+    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0fade62d7-b2dc-4ffd-9404-984959a60d17_5aa68d11-c2e2-4d76-bafb-0361f5a9df70" />
     <property name="jlink.strip" value="false" />
-    <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar" />
+    <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\ide\docs\jaxb-api-doc.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\ide\docs\jaxb-api-doc.jar" />
     <property name="manifest.available" value="true" />
     <property name="libs.spring-framework500.maven-pom" value="" />
     <property name="run.jvmargs.ide" value="" />
-    <property name="ant.core.lib" value="C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant.jar" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar" />
     <property name="libs.jsp-compilation.maven-pom" value="" />
     <property name="javac.profile.cmd.line.arg" value="" />
-    <property name="libs.jakartaee-api-9.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-9.0.0.jar" />
+    <property name="libs.jakartaee-api-9.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-9.0.0.jar" />
     <property name="application.title" value="Lowatem" />
     <property name="do.archive+main.class.available" value="true" />
     <property name="ignore.failing.tests" value="true" />
     <property name="javac.test.modulepath" value="" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
-    <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
-    <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant-launcher.jar" />
-    <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="V:\GitProg\algoprogs1\Lowatem\null899115751" />
-    <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
+    <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-launcher.jar" />
+    <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
+    <property name="javac.includesfile.binary" value="V:\GitProg\algoprogs1\Lowatem\null285711326" />
+    <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
     <property name="javadoc.preview" value="true" />
@@ -216,18 +216,18 @@
     <property name="libs.jakartaee-web-api-9.0.maven-pom" value="" />
     <property name="libs.javaee-endorsed-api-7.0.src" value="" />
     <property name="annotation.processing.enabled" value="true" />
-    <property name="libs.junit_5.src" value="C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-api-5.6.0-sources.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-params-5.6.0-sources.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-jupiter-engine-5.6.0-sources.jar" />
-    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
-    <property name="libs.javaee-api-8.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-api-8.0.jar" />
+    <property name="libs.junit_5.src" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-api-5.6.0-sources.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-params-5.6.0-sources.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-engine-5.6.0-sources.jar" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.javaee-api-8.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-8.0.jar" />
     <property name="libs.CopyLibs.src" value="" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="javac.source" value="11" />
     <property name="java.version.date" value="2021-07-20" />
-    <property name="java.home" value="C:\Java\jdk-11" />
+    <property name="java.home" value="C:\java\jdk-11" />
     <property name="work.dir" value="V:\GitProg\algoprogs1\Lowatem" />
     <property name="javac.test.compilerargs" value="" />
     <property name="jna.boot.library.name" value="jnidispatch-nb" />
-    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\postgresql-42.2.16.jar" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\postgresql-42.2.16.jar" />
     <property name="libs.graaljs.javadoc" value="" />
     <property name="libs.spring-webmvc3.0.javadoc" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
@@ -236,34 +236,34 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="libs.spring-framework400.src" value="" />
     <property name="run.test.modulepath" value="" />
-    <property name="libs.graaljs.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\webcommon\modules\ext\js-20.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\webcommon\modules\ext\js-launcher-20.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\webcommon\modules\ext\regex-20.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\webcommon\modules\ext\icu4j-67.1.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\graal-sdk-20.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\launcher-common-20.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\truffle-api-20.2.0.jar" />
-    <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="libs.graaljs.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-launcher-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\regex-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\icu4j-67.1.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\graal-sdk-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\launcher-common-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\truffle-api-20.3.0.jar" />
+    <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-6.0.jar" />
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="debug.test.modulepath" value="" />
-    <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-web-api-7.0.jar" />
+    <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-7.0.jar" />
     <property name="file.encoding" value="Cp1252" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|vdi-dev2-067" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|vdi-dev2-011" />
     <property name="libs.restlib.javadoc" value="" />
-    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\AbsoluteLayout.jar" />
     <property name="do.archive" value="true" />
     <property name="libs.struts.maven-pom" value="" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="built-jar.properties" value="V:\GitProg\algoprogs1\Lowatem\build\built-jar.properties" />
     <property name="nb.native.filechooser" value="false" />
     <property name="libs.testng.src" value="" />
-    <property name="libs.javaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee-web-api-8.0.jar" />
+    <property name="libs.javaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-8.0.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-    <property name="libs.struts.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\struts-1.3.10-javadoc.zip" />
+    <property name="libs.struts.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\struts-1.3.10-javadoc.zip" />
     <property name="default.javac.source" value="11" />
     <property name="sun.desktop" value="windows" />
-    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\core\asm-8.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\asm-commons-8.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\asm-tree-8.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\core-base.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\core.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans-12.4\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans-12.4\netbeans\nb\core\locale\core_nb.jar" />
-    <property name="libs.javaee-web-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.7.7.jar" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\core\asm-9.2.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\asm-commons-9.2.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\asm-tree-9.2.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\core-base.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\core.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans-12.6\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans-12.6\netbeans\nb\core\locale\core_nb.jar" />
+    <property name="libs.javaee-web-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.7.9.jar" />
     <property name="javac.systemmodulepath.cmd.line.arg" value="" />
-    <property name="netbeans.buildnumber" value="12.4-21726744165c946ba6619bff89e98d5863f26e22" />
+    <property name="netbeans.buildnumber" value="12.6-9cacf1fd305b775b176576c8b633b10b73524861" />
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="build.sysclasspath" value="ignore" />
@@ -272,17 +272,17 @@
     <property name="libs.jakartaee-api-8.0.maven-pom" value="" />
     <property name="jdkBug6558476" value="false" />
     <property name="javadoc.author" value="false" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|vdi-dev2-067" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|vdi-dev2-011" />
     <property name="main.class" value="lowatem.Requete" />
     <property name="libs.jsp-compilation-syscp.javadoc" value="" />
     <property name="source.encoding" value="UTF-8" />
     <property name="jar.compress" value="false" />
-    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.spring-webmvc5.0.src" value="" />
     <property name="libs.jsf20.maven-pom" value="" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="libs.restlib.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\asm-all-repackaged-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\cglib-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\guava-14.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\hk2-api-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\hk2-locator-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\hk2-utils-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\javax.annotation-api-1.2.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\javax.inject-2.2.0-b21.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\javax.servlet-api-3.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\jaxb-api-2.2.7.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\jersey-entity-filtering-2.5.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\jersey-media-moxy-2.5.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\org.osgi.core-4.2.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\osgi-resource-locator-1.0.1.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\persistence-api-1.0.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\ext\validation-api-1.1.0.Final.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\jersey-client.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\jersey-common.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet-core.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jersey2\jersey-server.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.7.jar;C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.7.jar" />
-    <property name="libs.jakartaee-web-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
+    <property name="libs.restlib.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.annotation-api-1.3.5.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.persistence-api-2.2.3.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.servlet-api-4.0.4.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.validation-api-2.0.2.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.xml.bind-api-2.3.3.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\jersey-client.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\jersey-common.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\jersey-server.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jersey-entity-filtering-2.34.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jersey-hk2-2.34.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jersey-media-moxy-2.34.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet-core.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\hk2-api-2.6.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\hk2-locator-2.6.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\hk2-utils-2.6.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\jakarta.inject-2.6.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\aopalliance-repackaged-2.6.1.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\osgi.core-8.0.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jersey2\ext\osgi-resource-locator-1.0.3.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-9.1.0.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.9.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.9.jar" />
+    <property name="libs.jakartaee-web-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="libs.graaljs.src" value="" />
     <property name="run.jvmargs" value="" />
@@ -290,24 +290,24 @@
     <property name="ant.file" value="V:\GitProg\algoprogs1\Lowatem\build.xml" />
     <property name="libs.struts.src" value="" />
     <property name="path.separator" value=";" />
-    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
     <property name="libs.restlib.src" value="" />
     <property name="build.test.results.dir" value="build/test/results" />
-    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\java\docs\jaxws-api-doc.zip" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\java\docs\jaxws-api-doc.zip" />
     <property name="libs.spring-framework400.maven-pom" value="" />
-    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="ap.processors.internal" value="" />
     <property name="module.name" value="" />
-    <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
+    <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
     <property name="libs.spring-webmvc5.0.javadoc" value="" />
     <property name="libs.hamcrest.javadoc" value="" />
     <property name="libs.spring-framework400.javadoc" value="" />
     <property name="ant.file.type.Lowatem-impl" value="file" />
     <property name="do.jar" value="true" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
+    <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
     <property name="libs.jaxws21.maven-pom" value="" />
-    <property name="run.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="run.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="dist.jlink.output" value="dist/jlink/Lowatem" />
     <property name="javadoc.encoding.used" value="UTF-8" />
     <property name="java.class.version" value="55.0" />
@@ -317,24 +317,24 @@
     <property name="excludes" value="" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="run.test.jvmargs" value="" />
-    <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-4.13.1-javadoc.jar" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-4.13.2-javadoc.jar" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.spring-webmvc4.0.src" value="" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="main.class.available" value="true" />
-    <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="empty.dir" value="V:\GitProg\algoprogs1\Lowatem\build\empty" />
-    <property name="netbeans.user" value="C:\Users\ralarcon\AppData\Roaming\NetBeans\12.4" />
+    <property name="netbeans.user" value="C:\Users\ralarcon\AppData\Roaming\NetBeans\12" />
     <property name="javac.includes.binary" value="V:\GitProg\algoprogs1\Lowatem\build\test\classes\lowatem\IALowatemTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
-    <property name="libs.spring-webmvc5.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar" />
+    <property name="libs.spring-webmvc5.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar" />
     <property name="javac.debug" value="true" />
     <property name="libs.restlib.maven-pom" value="" />
-    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\testng-6.14.3.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\jcommander-1.78.jar" />
+    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\testng-6.14.3.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\jcommander-1.78.jar" />
     <property name="libs.jsp-compiler.src" value="" />
     <property name="user.name" value="ralarcon" />
     <property name="build.classes.dir" value="build/classes" />
@@ -343,15 +343,15 @@
     <property name="nb.internal.action.name" value="test.single" />
     <property name="libs.javaee-api-8.0.maven-pom" value="" />
     <property name="libs.jaxws21.src" value="" />
-    <property name="libs.jakartaee-web-api-9.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\jakartaee9-doc-api.jar" />
+    <property name="libs.jakartaee-web-api-9.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee9-doc-api.jar" />
     <property name="jna.loaded" value="true" />
     <property name="libs.junit_5.maven-pom" value="" />
-    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
     <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="libs.JWSAntTasks.src" value="" />
     <property name="libs.spring-webmvc3.0.src" value="" />
-    <property name="ant.home" value="C:\Program Files\NetBeans-12.4\netbeans\extide\ant" />
-    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar:C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="ant.home" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant" />
+    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="have.tests" value="true" />
     <property name="javac.external.vm" value="true" />
     <property name="testng.debug.mode" value="" />
@@ -363,10 +363,10 @@
     <property name="libs.spring-framework500.src" value="" />
     <property name="javac.modulepath" value="" />
     <property name="libs.javaee-api-6.0.src" value="" />
-    <property name="user.properties.file" value="C:\Users\ralarcon\AppData\Roaming\NetBeans\12.4\build.properties" />
+    <property name="user.properties.file" value="C:\Users\ralarcon\AppData\Roaming\NetBeans\12\build.properties" />
     <property name="javac.includes" value="lowatem/IALowatemTest.java" />
     <property name="netbeans.autoupdate.country" value="FR" />
-    <property name="java.class.path" value="V:\GitProg\algoprogs1\Lowatem\build\classes;C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar;C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;V:\GitProg\algoprogs1\Lowatem\build\test\classes;C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-12.4\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="V:\GitProg\algoprogs1\Lowatem\build\classes;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;V:\GitProg\algoprogs1\Lowatem\build\test\classes;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="ap.supported.internal" value="true" />
@@ -379,7 +379,7 @@
     <property name="libs.jakartaee-web-api-8.0.src" value="" />
     <property name="sun.cpu.endian" value="little" />
     <property name="libs.jakartaee-api-9.0.src" value="" />
-    <property name="libs.junit_4.src" value="C:\Program Files\NetBeans-12.4\netbeans\platform\docs\junit-4.13.1-sources.jar" />
+    <property name="libs.junit_4.src" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-4.13.2-sources.jar" />
     <property name="user.language" value="fr" />
     <property name="copylibs.rebase" value="true" />
     <property name="maven.defaultProjectBuilder.disableGlobalModelCache" value="true" />
@@ -387,8 +387,8 @@
     <property name="javadoc.nonavbar" value="false" />
     <property name="libs.javaee-api-8.0.src" value="" />
     <property name="ant.java.version" value="11" />
-    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\platform\modules\ext\junit-4.13.1.jar" />
-    <property name="libs.jakartaee-api-9.0.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\jakartaee9-doc-api.jar" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="libs.jakartaee-api-9.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee9-doc-api.jar" />
     <property name="jlink.launcher.name" value="Lowatem" />
     <property name="test.binarytestincludes" value="" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
@@ -397,1962 +397,1738 @@
     <property name="libs.jsp-compiler.maven-pom" value="" />
     <property name="runtime.encoding" value="UTF-8" />
     <property name="jlink.additionalmodules" value="" />
-    <property name="libs.jakartaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-8.0.0.jar" />
+    <property name="libs.jakartaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-8.0.0.jar" />
     <property name="javac.classpath" value="" />
     <property name="dist.jlink.dir" value="dist/jlink" />
     <property name="nb.junit.batch" value="true" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="libs.spring-framework300.maven-pom" value="" />
     <property name="ant.project.invoked-targets" value="test-single" />
-    <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\jstl-api.jar" />
+    <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-api.jar" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="user.dir" value="V:\GitProg\algoprogs1\Lowatem" />
-    <property name="platform.java" value="C:\Java\jdk-11/bin/java" />
+    <property name="platform.java" value="C:\java\jdk-11/bin/java" />
     <property name="application.args" value="" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libs.jakartaee-web-api-8.0.maven-pom" value="" />
     <property name="libs.eclipselink.src" value="" />
     <property name="java.vm.version" value="11.0.12+8-LTS-237" />
-    <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
+    <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
     <property name="libs.jakartaee-web-api-9.0.src" value="" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="test.class" value="lowatem.IALowatemTest" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
-    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\ant\extra\jspcompile.jar" />
+    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="junit.forkmode" value="perTest" />
     <property name="libs.jakartaee-api-8.0.src" value="" />
     <property name="annotation.processing.run.all.processors" value="true" />
-    <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.4\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
+    <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="lowatem.IALowatemTest" name="testIA" time="37.735" />
+  <testcase classname="lowatem.IALowatemTest" name="testIA" time="27.063" />
   <system-out><![CDATA[On joue : bBDaB,61,61
-negamax took: 329ms
+negamax took: 328ms
 
-(61:61) Tacheron joue : cCDfC,61,61
+(61:61) Tacheron joue : aHDaJ,61,61
 On joue : aBDbBAcB,57,57
-negamax took: 219ms
+negamax took: 234ms
 
-(61:61) Tacheron joue : fCDbC,61,61
+(61:61) Tacheron joue : cCDgC,61,61
 On joue : bBDaB,61,61
-negamax took: 250ms
-
-(61:61) Tacheron joue : bCDkC,61,61
-On joue : aBDbBAcB,57,57
 negamax took: 266ms
 
-(61:61) Tacheron joue : fLDaL,61,61
-On joue : bBDaB,61,61
-negamax took: 187ms
-
-(61:61) Tacheron joue : iHDkH,61,61
-On joue : aBDbBAcB,57,57
-negamax took: 188ms
-
-(61:61) Tacheron joue : aHDhH,61,61
-On joue : bBDaB,61,61
-negamax took: 203ms
-
-(61:61) Tacheron joue : nMDnF,61,61
-On joue : aBDbBAcB,57,57
+(61:61) Tacheron joue : cBDmB,61,61
+On joue : aBDbB,61,61
 negamax took: 218ms
 
-(61:61) Tacheron joue : aLDaB,61,61
-On joue : bBDdBAcB,57,57
+(61:61) Tacheron joue : nMDnDAnE,57,57
+On joue : bBDaB,57,57
+negamax took: 219ms
+
+(57:57) Tacheron joue : kKDdK,57,57
+On joue : aBDbB,57,57
 negamax took: 188ms
 
-(61:61) Tacheron joue : cBDcK,61,61
-On joue : bFDaF,61,61
+(57:57) Tacheron joue : fLDfL,57,57
+On joue : bBDaB,57,57
 negamax took: 203ms
 
-(61:61) Tacheron joue : cKDcBAdB,59,57
-On joue : aFDbF,59,57
+(57:57) Tacheron joue : fLDeL,57,57
+On joue : aBDbB,57,57
+negamax took: 219ms
+
+(57:57) Tacheron joue : gCDgK,57,57
+On joue : bBDaB,57,57
+negamax took: 250ms
+
+(57:57) Tacheron joue : mBDiB,57,57
+On joue : aBDbB,57,57
+negamax took: 203ms
+
+(57:57) Tacheron joue : lMDlKAlL,55,51
+On joue : bBDaB,55,51
 negamax took: 172ms
 
-(59:57) Tacheron joue : hHDiH,59,57
-On joue : bFDaF,59,57
-negamax took: 172ms
-
-(59:57) Tacheron joue : cBDjB,59,57
-On joue : aFDbF,59,57
+(55:51) Tacheron joue : eLDgL,55,51
+On joue : aBDbB,55,51
 negamax took: 187ms
 
-(59:57) Tacheron joue : lMDlE,59,57
-On joue : bFDaF,59,57
+(55:51) Tacheron joue : iBDeB,55,51
+On joue : bBDaB,55,51
 negamax took: 188ms
 
-(59:57) Tacheron joue : nFDnH,59,57
-On joue : aFDbF,59,57
+(55:51) Tacheron joue : aJDaE,55,51
+On joue : aBDbB,55,51
 negamax took: 187ms
 
-(59:57) Tacheron joue : lEDjE,59,57
-On joue : bFDaF,59,57
-negamax took: 172ms
-
-(59:57) Tacheron joue : kHDlH,59,57
-On joue : aFDbF,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : aBDaF,59,57
-On joue : bFDcF,59,57
-negamax took: 172ms
-
-(59:57) Tacheron joue : kCDgC,59,57
-On joue : cADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : jBDlB,59,57
-On joue : bADaA,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : kKDkB,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : jEDjB,59,57
-On joue : bADaA,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : nHDnH,59,57
-On joue : aADbA,59,57
-negamax took: 172ms
-
-(59:57) Tacheron joue : iHDiL,59,57
-On joue : bADaA,59,57
+(55:51) Tacheron joue : eHDbH,55,51
+On joue : bBDaB,55,51
 negamax took: 203ms
 
-(59:57) Tacheron joue : gCDkC,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : nHDnF,59,57
-On joue : bADaA,59,57
+(55:51) Tacheron joue : dKDdA,55,51
+On joue : aBDbB,55,51
 negamax took: 188ms
 
-(59:57) Tacheron joue : aFDdF,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : kCDdC,59,57
-On joue : bADaA,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : jBDjK,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : kBDkB,59,57
-On joue : bADaA,59,57
+(55:51) Tacheron joue : aEDaB,55,51
+On joue : bBDcB,55,51
 negamax took: 203ms
 
-(59:57) Tacheron joue : jKDbK,59,57
-On joue : aADbA,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : dFDdF,59,57
-On joue : bADaA,59,57
+(55:51) Tacheron joue : gLDgF,55,51
+On joue : bFDaF,55,51
 negamax took: 203ms
 
-(59:57) Tacheron joue : lBDlA,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : nFDmF,59,57
-On joue : bADaA,59,57
-negamax took: 188ms
-
-(59:57) Tacheron joue : bKDbH,59,57
-On joue : aADbA,59,57
-negamax took: 187ms
-
-(59:57) Tacheron joue : dFDbFAcF,56,51
-On joue : bADaA,56,51
-negamax took: 188ms
-
-(56:51) Tacheron joue : lADgA,56,51
-On joue : aADbA,56,51
-negamax took: 188ms
-
-(56:51) Tacheron joue : dCDdA,56,51
-On joue : bADaA,56,51
+(55:51) Tacheron joue : bHDgH,55,51
+On joue : aFDbF,55,51
 negamax took: 203ms
 
-(56:51) Tacheron joue : kBDkB,56,51
-On joue : aADbA,56,51
-negamax took: 187ms
-
-(56:51) Tacheron joue : lHDkH,56,51
-On joue : bADaA,56,51
+(55:51) Tacheron joue : gHDnH,55,51
+On joue : bFDaF,55,51
 negamax took: 188ms
 
-(56:51) Tacheron joue : bFDbJ,56,51
-On joue : aADbA,56,51
+(55:51) Tacheron joue : lKDdK,55,51
+On joue : aFDbF,55,51
 negamax took: 187ms
 
-(56:51) Tacheron joue : kBDiB,56,51
-On joue : bADaA,56,51
-negamax took: 188ms
-
-(56:51) Tacheron joue : bHDbH,56,51
-On joue : aADbA,56,51
+(55:51) Tacheron joue : iHDiK,55,51
+On joue : bFDaF,55,51
 negamax took: 187ms
 
-(56:51) Tacheron joue : gADgG,56,51
-On joue : bADaA,56,51
-negamax took: 188ms
-
-(56:51) Tacheron joue : bJDbM,56,51
-On joue : aADbA,56,51
-negamax took: 187ms
-
-(56:51) Tacheron joue : iBDaB,56,51
-On joue : bADaAAaB,51,49
-negamax took: 188ms
-
-(56:51) Tacheron joue : bMDbL,56,51
-On joue : aADbA,56,51
-negamax took: 187ms
-
-(56:51) Tacheron joue : bLDkLAlL,54,47
-On joue : bADaAAaB,49,45
-negamax took: 188ms
-
-(54:47) Tacheron joue : bHDgH,54,47
-On joue : aADbA,54,47
-negamax took: 187ms
-
-(54:47) Tacheron joue : kHDkE,54,47
-On joue : bADaAAaB,49,45
-negamax took: 188ms
-
-(54:47) Tacheron joue : aBDmBAmA,51,43
-On joue : aADbA,51,43
-negamax took: 187ms
-
-(51:43) Tacheron joue : kLDkMAkN,49,39
-On joue : bADaA,49,39
+(55:51) Tacheron joue : dADiA,55,51
+On joue : aFDbF,55,51
 negamax took: 203ms
 
-(49:39) Tacheron joue : gGDgM,49,39
-On joue : aADbA,49,39
+(55:51) Tacheron joue : gFDgJ,55,51
+On joue : bFDaF,55,51
 negamax took: 188ms
 
-(49:39) Tacheron joue : gMDgC,49,39
-On joue : bADaA,49,39
-negamax took: 203ms
-
-(49:39) Tacheron joue : gCDgE,49,39
-On joue : aADbA,49,39
+(55:51) Tacheron joue : iKDfK,55,51
+On joue : aFDbF,55,51
 negamax took: 187ms
 
-(49:39) Tacheron joue : gEDgK,49,39
-On joue : bADaA,49,39
+(55:51) Tacheron joue : eBDkB,55,51
+On joue : bFDaF,55,51
+negamax took: 188ms
+
+(55:51) Tacheron joue : iADbAAcA,51,47
+On joue : aFDbF,51,47
+negamax took: 187ms
+
+(51:47) Tacheron joue : fKDkK,51,47
+On joue : bFDaF,51,47
+negamax took: 203ms
+
+(51:47) Tacheron joue : gJDbJ,51,47
+On joue : aFDbF,51,47
+negamax took: 188ms
+
+(51:47) Tacheron joue : bADbM,51,47
+On joue : bFDaF,51,47
+negamax took: 187ms
+
+(51:47) Tacheron joue : gKDhK,51,47
+On joue : aFDbF,51,47
 negamax took: 204ms
 
-(49:39) Tacheron joue : eHDeG,49,39
-On joue : aADbA,49,39
+(51:47) Tacheron joue : hKDhD,51,47
+On joue : bFDaF,51,47
 negamax took: 187ms
 
-(49:39) Tacheron joue : gKDgN,49,39
-On joue : bADaA,49,39
+(51:47) Tacheron joue : bJDiJ,51,47
+On joue : aFDbF,51,47
 negamax took: 203ms
 
-(49:39) Tacheron joue : gHDhH,49,39
-On joue : aADbA,49,39
-negamax took: 188ms
-
-(49:39) Tacheron joue : iLDeL,49,39
-On joue : bADaA,49,39
-negamax took: 203ms
-
-(49:39) Tacheron joue : mFDnF,49,39
-On joue : aADbA,49,39
-negamax took: 187ms
-
-(49:39) Tacheron joue : eLDeA,49,39
-On joue : bADaA,49,39
-negamax took: 188ms
-
-(49:39) Tacheron joue : gNDgH,49,39
-On joue : aADbA,49,39
-negamax took: 187ms
-
-(49:39) Tacheron joue : mBDlB,49,39
-On joue : bADaA,49,39
-negamax took: 188ms
-
-(49:39) Tacheron joue : hHDhJ,49,39
-On joue : aADbA,49,39
-negamax took: 187ms
-
-(49:39) Tacheron joue : dADdB,49,39
-On joue : bADaA,49,39
-negamax took: 204ms
-
-(49:39) Tacheron joue : eADeH,49,39
-On joue : aADbA,49,39
-negamax took: 203ms
-
-(49:39) Tacheron joue : nFDlF,49,39
-On joue : bADaA,49,39
-negamax took: 187ms
-
-(49:39) Tacheron joue : eGDeE,49,39
-On joue : aADbA,49,39
-negamax took: 188ms
-
-(49:39) Tacheron joue : gHDcH,49,39
-On joue : bADaA,49,39
-negamax took: 203ms
-
-(49:39) Tacheron joue : eHDeC,49,39
-On joue : aADbA,49,39
-negamax took: 187ms
-
-(49:39) Tacheron joue : eCDeMAfM,47,35
-On joue : bADaA,47,35
+(51:47) Tacheron joue : kBDbBAcB,49,43
+On joue : bFDaF,49,43
 negamax took: 172ms
 
-(47:35) Tacheron joue : lBDlAAmA,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
+(49:43) Tacheron joue : kKDkA,49,43
+On joue : aFDbF,49,43
+negamax took: 172ms
 
-(45:32) Tacheron joue : kMDcM,45,32
-On joue : bADaA,45,32
+(49:43) Tacheron joue : hDDhDAhC,45,39
+On joue : bFDaF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : eEDdE,45,32
-On joue : aADbA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : cMDgM,45,32
-On joue : bADaA,45,32
-negamax took: 157ms
-
-(45:32) Tacheron joue : dBDdI,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : aBDaG,45,39
+On joue : aFDbF,45,39
 negamax took: 140ms
 
-(45:32) Tacheron joue : gMDgN,45,32
-On joue : bADaA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : gNDmN,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : eMDeG,45,32
-On joue : bADaA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : dEDdG,45,32
-On joue : aADbA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : dGDgG,45,32
-On joue : bADaA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : kEDbE,45,32
-On joue : aADbA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : hJDeJ,45,32
-On joue : bADaA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : gGDgM,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : dIDdI,45,32
-On joue : bADaA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : lFDlM,45,32
-On joue : aADbA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : cHDlH,45,32
-On joue : bADaA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : mNDmB,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : nHDnH,45,39
+On joue : bFDaFAaG,40,36
 negamax took: 157ms
 
-(45:32) Tacheron joue : dIDdB,45,32
-On joue : bADaA,45,32
-negamax took: 155ms
-
-(45:32) Tacheron joue : lHDgH,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : mBDfB,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : aGDaL,45,39
+On joue : aFDbF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : gMDiM,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : iJDfJ,45,39
+On joue : bFDaF,45,39
+negamax took: 156ms
+
+(45:39) Tacheron joue : fJDaJ,45,39
+On joue : aFDbF,45,39
+negamax took: 156ms
+
+(45:39) Tacheron joue : dKDdD,45,39
+On joue : bFDaF,45,39
 negamax took: 157ms
 
-(45:32) Tacheron joue : fBDfJ,45,32
-On joue : bADaA,45,32
-negamax took: 140ms
-
-(45:32) Tacheron joue : gHDgE,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : eGDmG,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : bMDjM,45,39
+On joue : aFDbF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : lMDcM,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : eJDeF,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : aJDaC,45,39
+On joue : bFDaF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : gEDcE,45,32
-On joue : aADbA,45,32
-negamax took: 141ms
-
-(45:32) Tacheron joue : dBDnB,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : aCDkC,45,39
+On joue : aFDbF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : iMDgM,45,32
-On joue : aADbA,45,32
-negamax took: 140ms
-
-(45:32) Tacheron joue : eFDeN,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : aLDaK,45,39
+On joue : bFDaF,45,39
 negamax took: 157ms
 
-(45:32) Tacheron joue : fJDfH,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : bBDkB,45,39
+On joue : aFDbF,45,39
 negamax took: 140ms
 
-(45:32) Tacheron joue : cEDcB,45,32
-On joue : bADaA,45,32
-negamax took: 157ms
-
-(45:32) Tacheron joue : nBDaB,45,32
-On joue : aADbA,45,32
-negamax took: 140ms
-
-(45:32) Tacheron joue : aBDaJ,45,32
-On joue : bADaA,45,32
-negamax took: 156ms
-
-(45:32) Tacheron joue : eNDeL,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : jMDjE,45,39
+On joue : bFDaF,45,39
 negamax took: 141ms
 
-(45:32) Tacheron joue : cBDcH,45,32
-On joue : bADaA,45,32
+(45:39) Tacheron joue : kBDiB,45,39
+On joue : aFDbF,45,39
 negamax took: 156ms
 
-(45:32) Tacheron joue : cHDcN,45,32
-On joue : aADbA,45,32
+(45:39) Tacheron joue : iBDbB,45,39
+On joue : bFDaF,45,39
+negamax took: 156ms
+
+(45:39) Tacheron joue : jEDjNAkN,44,37
+On joue : aFDbF,44,37
 negamax took: 141ms
 
-(45:32) Tacheron joue : cMDkMAkN,45,31
-On joue : bADaA,45,31
+(44:37) Tacheron joue : kCDaC,44,37
+On joue : bFDaF,44,37
 negamax took: 125ms
 
-(45:31) Tacheron joue : fHDdH,45,31
-On joue : aADbA,45,31
-negamax took: 125ms
-
-(45:31) Tacheron joue : cNDcC,45,31
-On joue : bADaA,45,31
+(44:37) Tacheron joue : dDDdM,44,37
+On joue : aFDbF,44,37
 negamax took: 141ms
 
-(45:31) Tacheron joue : dHDjH,45,31
-On joue : aADbA,45,31
-negamax took: 109ms
+(44:37) Tacheron joue : aCDgC,44,37
+On joue : bFDaF,44,37
+negamax took: 140ms
 
-(45:31) Tacheron joue : eLDeC,45,31
-On joue : bADaA,45,31
+(44:37) Tacheron joue : dMDdAAcA,42,32
+On joue : aFDbF,42,32
+negamax took: 110ms
+
+(42:32) Tacheron joue : nHDnD,42,32
+On joue : bFDaF,42,32
 negamax took: 125ms
 
-(45:31) Tacheron joue : mGDcGAcF,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
+(42:32) Tacheron joue : kADkF,42,32
+On joue : aFDbF,42,32
+negamax took: 172ms
 
-(45:30) Tacheron joue : bEDfE,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
+(42:32) Tacheron joue : aKDhK,42,32
+On joue : bFDaF,42,32
+negamax took: 140ms
 
-(45:30) Tacheron joue : jHDjN,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : eCDeN,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : cGDkG,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : kGDkN,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : eNDeD,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : kMDbM,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : eDDeM,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : fEDbE,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : kNDkB,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : jNDdN,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : bEDbB,45,30
-On joue : aADbAAbB,39,28
-negamax took: 94ms
-
-(45:30) Tacheron joue : gMDnM,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : dNDdL,45,30
-On joue : aADbAAbB,39,28
+(42:32) Tacheron joue : bBDbC,42,32
+On joue : aFDbF,42,32
 negamax took: 110ms
 
-(45:30) Tacheron joue : dLDdG,45,30
-On joue : bADaA,45,30
-negamax took: 93ms
+(42:32) Tacheron joue : hKDhL,42,32
+On joue : bFDaF,42,32
+negamax took: 125ms
 
-(45:30) Tacheron joue : kBDhB,45,30
-On joue : aADbAAbB,39,28
-negamax took: 110ms
+(42:32) Tacheron joue : hLDcL,42,32
+On joue : aFDbF,42,32
+negamax took: 125ms
 
-(45:30) Tacheron joue : bMDbK,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : bKDbE,45,30
-On joue : aADbAAbB,39,28
-negamax took: 109ms
-
-(45:30) Tacheron joue : dGDdD,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : hBDhN,45,30
-On joue : aADbAAbB,39,28
-negamax took: 109ms
-
-(45:30) Tacheron joue : bEDaE,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : eMDeD,45,30
-On joue : aADbAAbB,39,28
-negamax took: 109ms
-
-(45:30) Tacheron joue : aEDaK,45,30
-On joue : bADaA,45,30
-negamax took: 110ms
-
-(45:30) Tacheron joue : nMDnG,45,30
-On joue : aADbAAbB,39,28
-negamax took: 93ms
-
-(45:30) Tacheron joue : dDDdK,45,30
-On joue : bADaA,45,30
-negamax took: 110ms
-
-(45:30) Tacheron joue : cCDcM,45,30
-On joue : aADbAAbB,39,28
-negamax took: 93ms
-
-(45:30) Tacheron joue : nGDhG,45,30
-On joue : bADaA,45,30
-negamax took: 110ms
-
-(45:30) Tacheron joue : hGDhE,45,30
-On joue : aADbAAbB,39,28
-negamax took: 94ms
-
-(45:30) Tacheron joue : dKDgK,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : cMDhM,45,30
-On joue : aADbAAbB,39,28
-negamax took: 94ms
-
-(45:30) Tacheron joue : bBDgB,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : hEDcE,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : aJDaE,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : hMDhB,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : hNDdN,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : gKDiK,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : aEDiE,45,30
-On joue : bADaA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : cEDeE,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : eEDeB,45,30
-On joue : bADaA,45,30
-negamax took: 110ms
-
-(45:30) Tacheron joue : eDDlD,45,30
-On joue : aADbA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : lDDbD,45,30
-On joue : bADaA,45,30
-negamax took: 109ms
-
-(45:30) Tacheron joue : eBDaB,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : iKDiC,45,30
-On joue : bADaAAaB,39,27
-negamax took: 109ms
-
-(45:30) Tacheron joue : dNDcN,45,30
-On joue : aADbA,45,30
-negamax took: 94ms
-
-(45:30) Tacheron joue : iCDeC,45,30
-On joue : bADaAAaB,39,27
-negamax took: 110ms
-
-(45:30) Tacheron joue : eCDgCAhC,43,27
-On joue : aADbA,43,27
-negamax took: 93ms
-
-(43:27) Tacheron joue : hBDhDAhC,41,22
-On joue : bADaAAaB,35,19
-negamax took: 94ms
-
-(41:22) Tacheron joue : bDDnD,41,22
-On joue : aADbA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : gBDgE,41,22
-On joue : bADaAAaB,35,19
-negamax took: 94ms
-
-(41:22) Tacheron joue : aKDaI,41,22
-On joue : aADbA,41,22
-negamax took: 93ms
-
-(41:22) Tacheron joue : aIDjI,41,22
-On joue : bADaAAaB,35,19
-negamax took: 94ms
-
-(41:22) Tacheron joue : hDDbD,41,22
-On joue : aADbA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : gEDgG,41,22
-On joue : bADaAAaB,35,19
-negamax took: 94ms
-
-(41:22) Tacheron joue : jIDjF,41,22
-On joue : aADbA,41,22
-negamax took: 93ms
-
-(41:22) Tacheron joue : gGDcG,41,22
-On joue : bADaAAaB,35,19
-negamax took: 94ms
-
-(41:22) Tacheron joue : nDDnB,41,22
-On joue : aADbA,41,22
+(42:32) Tacheron joue : gCDgCAhC,40,27
+On joue : bFDaF,40,27
 negamax took: 78ms
 
-(41:22) Tacheron joue : iEDiB,41,22
-On joue : bADaAAaB,35,19
-negamax took: 110ms
-
-(41:22) Tacheron joue : bDDcD,41,22
-On joue : aADbA,41,22
-negamax took: 78ms
-
-(41:22) Tacheron joue : aBDaF,41,22
-On joue : bADaA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : aFDaG,41,22
-On joue : aADbA,41,22
+(40:27) Tacheron joue : cLDnL,40,27
+On joue : aFDbF,40,27
 negamax took: 93ms
 
-(41:22) Tacheron joue : cNDaN,41,22
-On joue : bADaA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : aNDfN,41,22
-On joue : aADbA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : cDDnD,41,22
-On joue : bADaA,41,22
-negamax took: 109ms
-
-(41:22) Tacheron joue : aGDaI,41,22
-On joue : aADbA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : nBDnJ,41,22
-On joue : bADaA,41,22
+(40:27) Tacheron joue : bCDcC,40,27
+On joue : bFDaF,40,27
 negamax took: 78ms
 
-(41:22) Tacheron joue : aIDgI,41,22
-On joue : aADbA,41,22
-negamax took: 78ms
-
-(41:22) Tacheron joue : gIDgN,41,22
-On joue : bADaA,41,22
+(40:27) Tacheron joue : kFDkJ,40,27
+On joue : aFDbF,40,27
 negamax took: 94ms
 
-(41:22) Tacheron joue : iBDnB,41,22
-On joue : aADbA,41,22
+(40:27) Tacheron joue : nLDkL,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : kLDkA,40,27
+On joue : aFDbF,40,27
 negamax took: 93ms
 
-(41:22) Tacheron joue : nDDlD,41,22
-On joue : bADaA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : gNDmN,41,22
-On joue : aADbA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : cGDgG,41,22
-On joue : bADaA,41,22
-negamax took: 94ms
-
-(41:22) Tacheron joue : nBDnAAmA,41,21
-On joue : aADbA,41,21
-negamax took: 62ms
-
-(41:21) Tacheron joue : gGDbG,41,21
-On joue : bADaA,41,21
-negamax took: 78ms
-
-(41:21) Tacheron joue : lDDcD,41,21
-On joue : aADbA,41,21
-negamax took: 63ms
-
-(41:21) Tacheron joue : nADnB,41,21
-On joue : bADaA,41,21
-negamax took: 78ms
-
-(41:21) Tacheron joue : nBDnN,41,21
-On joue : aADbA,41,21
+(40:27) Tacheron joue : kJDgJ,40,27
+On joue : bFDaF,40,27
 negamax took: 79ms
 
-(41:21) Tacheron joue : fNDjN,41,21
-On joue : bADaA,41,21
-negamax took: 62ms
+(40:27) Tacheron joue : cCDhC,40,27
+On joue : aFDbF,40,27
+negamax took: 93ms
 
-(41:21) Tacheron joue : cDDcN,41,21
-On joue : aADbA,41,21
-negamax took: 63ms
-
-(41:21) Tacheron joue : nJDnA,41,21
-On joue : bADaA,41,21
-negamax took: 78ms
-
-(41:21) Tacheron joue : cNDcB,41,21
-On joue : aADbA,41,21
-negamax took: 62ms
-
-(41:21) Tacheron joue : jFDhF,41,21
-On joue : bADaA,41,21
-negamax took: 78ms
-
-(41:21) Tacheron joue : jNDjG,41,21
-On joue : aADbA,41,21
-negamax took: 63ms
-
-(41:21) Tacheron joue : bGDbBAbA,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : bBDbC,37,17
-On joue : aADbA,37,17
-negamax took: 62ms
-
-(37:17) Tacheron joue : jGDjF,37,17
-On joue : bADaA,37,17
-negamax took: 79ms
-
-(37:17) Tacheron joue : mNDlN,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nNDhN,37,17
-On joue : bADaA,37,17
-negamax took: 62ms
-
-(37:17) Tacheron joue : lNDlJ,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : cBDcJ,37,17
-On joue : bADaA,37,17
-negamax took: 63ms
-
-(37:17) Tacheron joue : hFDkF,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : jFDbF,37,17
-On joue : bADaA,37,17
-negamax took: 62ms
-
-(37:17) Tacheron joue : bCDbI,37,17
-On joue : aADbA,37,17
-negamax took: 79ms
-
-(37:17) Tacheron joue : nADnL,37,17
-On joue : bADaA,37,17
-negamax took: 62ms
-
-(37:17) Tacheron joue : lJDlK,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nLDnG,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nGDnG,37,17
-On joue : aADbA,37,17
-negamax took: 63ms
-
-(37:17) Tacheron joue : bIDdI,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nGDnD,37,17
-On joue : aADbA,37,17
-negamax took: 62ms
-
-(37:17) Tacheron joue : dIDgI,37,17
-On joue : bADaA,37,17
-negamax took: 63ms
-
-(37:17) Tacheron joue : cJDcB,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : gIDfI,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nDDnA,37,17
-On joue : aADbA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : lKDfK,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : cBDbB,37,17
-On joue : aADbAAbB,33,15
-negamax took: 78ms
-
-(37:17) Tacheron joue : fKDmK,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : nADnG,37,17
-On joue : aADbAAbB,33,15
-negamax took: 79ms
-
-(37:17) Tacheron joue : fIDfA,37,17
-On joue : bADaA,37,17
-negamax took: 78ms
-
-(37:17) Tacheron joue : bBDbAAaA,35,13
-On joue : aADcAAbA,33,12
-negamax took: 78ms
-
-(35:13) Tacheron joue : bADbM,35,13
-On joue : cADbA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : bFDbJ,35,13
-On joue : bADaA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : nGDnF,35,13
-On joue : aADbA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : fADcA,35,13
-On joue : bADaA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : mKDmD,35,13
-On joue : aADbAAcA,33,12
-negamax took: 78ms
-
-(35:13) Tacheron joue : mDDmG,35,13
-On joue : bADaA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : nFDgF,35,13
-On joue : aADbAAcA,33,12
-negamax took: 110ms
-
-(35:13) Tacheron joue : gFDaF,35,13
-On joue : bADaA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : bJDcJ,35,13
-On joue : aADbAAcA,33,12
-negamax took: 78ms
-
-(35:13) Tacheron joue : hNDeN,35,13
-On joue : bADaA,35,13
-negamax took: 62ms
-
-(35:13) Tacheron joue : cJDcK,35,13
-On joue : aADbAAcA,33,12
-negamax took: 78ms
-
-(35:13) Tacheron joue : cKDcN,35,13
-On joue : bADaA,35,13
-negamax took: 79ms
-
-(35:13) Tacheron joue : eNDeG,35,13
-On joue : aADbAAcA,33,12
-negamax took: 62ms
-
-(35:13) Tacheron joue : aFDaF,35,13
-On joue : bADaA,35,13
-negamax took: 78ms
-
-(35:13) Tacheron joue : eGDeA,35,13
-On joue : aADbAAcA,33,12
+(40:27) Tacheron joue : nDDlD,40,27
+On joue : bFDaF,40,27
 negamax took: 94ms
 
-(35:13) Tacheron joue : kFDdF,35,13
-On joue : bADaA,35,13
-negamax took: 62ms
+(40:27) Tacheron joue : dADdB,40,27
+On joue : aFDbF,40,27
+negamax took: 78ms
 
-(35:13) Tacheron joue : aFDiF,35,13
-On joue : aADbAAcA,33,12
+(40:27) Tacheron joue : gCDjC,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : hCDhN,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : lDDjD,40,27
+On joue : bFDaF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : jCDiC,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : hNDcN,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : iCDiJ,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : kADkM,40,27
+On joue : bFDaF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : jDDbD,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : gJDgF,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : gFDgH,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : gHDaH,40,27
+On joue : bFDaF,40,27
+negamax took: 109ms
+
+(40:27) Tacheron joue : bDDeD,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : dBDdF,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : aHDjH,40,27
+On joue : aFDbF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : dFDdK,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : jHDgH,40,27
+On joue : aFDbF,40,27
+negamax took: 141ms
+
+(40:27) Tacheron joue : iJDhJ,40,27
+On joue : bFDaF,40,27
+negamax took: 109ms
+
+(40:27) Tacheron joue : hJDhD,40,27
+On joue : aFDbF,40,27
+negamax took: 141ms
+
+(40:27) Tacheron joue : hDDhJ,40,27
+On joue : bFDaF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : gHDkH,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : dKDcK,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : kMDcM,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : cNDcH,40,27
+On joue : bFDaF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : cMDjM,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : eDDeF,40,27
+On joue : bFDaF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : hJDhN,40,27
+On joue : aFDbF,40,27
+negamax took: 94ms
+
+(40:27) Tacheron joue : cKDjK,40,27
+On joue : bFDaF,40,27
+negamax took: 93ms
+
+(40:27) Tacheron joue : hNDfNAfM,38,23
+On joue : aFDbF,38,23
 negamax took: 79ms
 
-(35:13) Tacheron joue : eADhA,35,13
-On joue : bADaA,35,13
+(38:23) Tacheron joue : kHDkB,38,23
+On joue : bFDaF,38,23
 negamax took: 78ms
 
-(35:13) Tacheron joue : dFDdJ,35,13
-On joue : aADbAAcA,33,12
+(38:23) Tacheron joue : eFDcF,38,23
+On joue : aFDbFAcF,33,20
 negamax took: 62ms
 
-(35:13) Tacheron joue : cNDgN,35,13
-On joue : bADaA,35,13
+(38:23) Tacheron joue : cHDcI,38,23
+On joue : bFDaF,38,23
 negamax took: 78ms
 
-(35:13) Tacheron joue : bMDbJ,35,13
-On joue : aADbAAcA,33,12
+(38:23) Tacheron joue : jMDlM,38,23
+On joue : aFDbFAcF,33,20
 negamax took: 78ms
 
-(35:13) Tacheron joue : hADhE,35,13
-On joue : bADaA,35,13
-negamax took: 63ms
+(38:23) Tacheron joue : cFDiF,38,23
+On joue : bFDaF,38,23
+negamax took: 79ms
 
-(35:13) Tacheron joue : hEDhN,35,13
-On joue : aADbAAcA,33,12
+(38:23) Tacheron joue : fNDfH,38,23
+On joue : aFDbF,38,23
 negamax took: 78ms
 
-(35:13) Tacheron joue : mGDmLAlL,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : kBDgB,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : iFDlF,34,11
-On joue : aADbAAcA,32,10
+(38:23) Tacheron joue : fHDcH,38,23
+On joue : aFDbF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : gNDgG,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : cIDdI,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : bJDgJ,34,11
-On joue : aADbAAcA,32,10
+(38:23) Tacheron joue : jKDjJ,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : jJDmJ,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : mJDjJ,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : lMDlM,38,23
+On joue : bFDaF,38,23
+negamax took: 94ms
+
+(38:23) Tacheron joue : lMDlJ,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : dIDdE,38,23
+On joue : bFDaF,38,23
+negamax took: 125ms
+
+(38:23) Tacheron joue : gBDfB,38,23
+On joue : aFDbF,38,23
+negamax took: 110ms
+
+(38:23) Tacheron joue : dEDdB,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : jJDhJ,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : cHDgH,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : lJDlH,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : hJDnJ,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : lHDmH,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : fBDcB,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : cBDjB,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : nJDgJ,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : iFDiF,38,23
+On joue : aFDbF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : gGDdG,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : dBDiB,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : hNDhE,34,11
-On joue : aADbAAcA,32,10
-negamax took: 47ms
-
-(34:11) Tacheron joue : dGDdG,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : gHDeH,38,23
+On joue : aFDbF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : lFDlF,34,11
-On joue : aADbAAcA,32,10
-negamax took: 47ms
+(38:23) Tacheron joue : eHDbH,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : cADkA,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : jBDgB,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : gBDbB,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : bHDbI,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : gJDlJ,38,23
+On joue : bFDaF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : dGDcG,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : iBDeB,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
 
-(34:11) Tacheron joue : lFDlJ,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : bIDbG,38,23
+On joue : bFDaF,38,23
+negamax took: 94ms
 
-(34:11) Tacheron joue : mLDmF,34,11
-On joue : aADbA,34,11
+(38:23) Tacheron joue : mHDnH,38,23
+On joue : aFDbFAbG,33,21
+negamax took: 78ms
+
+(38:23) Tacheron joue : bBDiB,38,23
+On joue : bFDaF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : gJDgF,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : lJDiJ,38,23
+On joue : aFDbFAbG,33,21
+negamax took: 78ms
 
-(34:11) Tacheron joue : lJDlN,34,11
-On joue : aADbA,34,11
+(38:23) Tacheron joue : nHDnA,38,23
+On joue : bFDaF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : cGDkG,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : nADnF,38,23
+On joue : aFDbFAbG,33,21
+negamax took: 78ms
 
-(34:11) Tacheron joue : kGDkB,34,11
-On joue : aADbA,34,11
+(38:23) Tacheron joue : nFDnH,38,23
+On joue : bFDaF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : bGDlG,38,23
+On joue : aFDbF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : kADmA,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : nHDnD,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : eBDlB,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : lGDhG,38,23
+On joue : bFDaF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : hEDlE,34,11
-On joue : aADbA,34,11
-negamax took: 62ms
-
-(34:11) Tacheron joue : dJDmJ,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
-
-(34:11) Tacheron joue : mADmH,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
-
-(34:11) Tacheron joue : gFDgL,34,11
-On joue : bADaA,34,11
-negamax took: 62ms
-
-(34:11) Tacheron joue : mFDfF,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
-
-(34:11) Tacheron joue : mHDmC,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : iBDiE,38,23
+On joue : aFDbF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : lEDcE,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : hGDjG,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : gLDgE,34,11
-On joue : bADaA,34,11
-negamax took: 62ms
+(38:23) Tacheron joue : iJDiH,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : cEDcI,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : iEDgE,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : mJDeJ,34,11
-On joue : bADaA,34,11
-negamax took: 62ms
+(38:23) Tacheron joue : jGDjE,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : fFDgF,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : iHDnH,38,23
+On joue : bFDaF,38,23
+negamax took: 79ms
 
-(34:11) Tacheron joue : eJDeI,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : jEDhE,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : hEDhN,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : nHDgH,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : nDDlD,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : gEDgL,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : hNDcN,38,23
+On joue : bFDaF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : eIDiI,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : iFDiE,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : iIDiH,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : iEDiK,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : kBDkH,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : cNDeN,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : kHDkC,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : lDDlN,38,23
+On joue : bFDaF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : gFDgG,34,11
-On joue : aADbA,34,11
+(38:23) Tacheron joue : gLDgJ,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : gHDkH,38,23
+On joue : bFDaF,38,23
 negamax took: 62ms
 
-(34:11) Tacheron joue : iHDjH,34,11
-On joue : bADaA,34,11
-negamax took: 47ms
+(38:23) Tacheron joue : lNDfN,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
 
-(34:11) Tacheron joue : jHDlH,34,11
-On joue : aADbA,34,11
+(38:23) Tacheron joue : lBDkB,38,23
+On joue : bFDaF,38,23
 negamax took: 63ms
 
-(34:11) Tacheron joue : mCDcC,34,11
-On joue : bADaA,34,11
+(38:23) Tacheron joue : eNDeK,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : eKDeE,38,23
+On joue : bFDaF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : kHDkL,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : kBDkA,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : fNDfN,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : kLDkL,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : iKDaK,38,23
+On joue : aFDbF,38,23
+negamax took: 63ms
+
+(38:23) Tacheron joue : eEDeI,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : aKDkK,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : gJDgB,38,23
+On joue : bFDaF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : gBDnB,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : kADiA,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : nBDdB,38,23
+On joue : aFDbF,38,23
+negamax took: 63ms
+
+(38:23) Tacheron joue : kLDkI,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : iADiB,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : kIDnI,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : kKDkA,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : fNDfB,38,23
+On joue : bFDaF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : kADhA,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : iBDiE,38,23
+On joue : bFDaF,38,23
+negamax took: 63ms
+
+(38:23) Tacheron joue : hADhE,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : eIDeL,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : hEDhF,38,23
+On joue : aFDbF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : fBDfN,38,23
+On joue : bFDaF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : iEDiA,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : hFDhN,38,23
+On joue : bFDaF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : dBDdC,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : eLDgL,38,23
+On joue : bFDaF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : nIDnL,38,23
+On joue : aFDbF,38,23
+negamax took: 79ms
+
+(38:23) Tacheron joue : hNDhD,38,23
+On joue : bFDaF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : iADiL,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : gLDfL,38,23
+On joue : bFDaF,38,23
+negamax took: 63ms
+
+(38:23) Tacheron joue : nLDnF,38,23
+On joue : aFDbF,38,23
+negamax took: 78ms
+
+(38:23) Tacheron joue : iLDaL,38,23
+On joue : bFDaF,38,23
+negamax took: 62ms
+
+(38:23) Tacheron joue : aLDaEAaF,35,18
+On joue : aFDbF,35,18
+negamax took: 78ms
+
+(35:18) Tacheron joue : aEDiE,35,18
+On joue : bFDaF,35,18
+negamax took: 63ms
+
+(35:18) Tacheron joue : fNDlNAkN,34,15
+On joue : aFDbF,34,15
 negamax took: 46ms
 
-(34:11) Tacheron joue : lHDjH,34,11
-On joue : aADbA,34,11
-negamax took: 47ms
-
-(34:11) Tacheron joue : jHDjM,34,11
-On joue : bADaA,34,11
+(34:15) Tacheron joue : iEDiJ,34,15
+On joue : bFDaF,34,15
 negamax took: 63ms
 
-(34:11) Tacheron joue : cIDfI,34,11
-On joue : aADbA,34,11
+(34:15) Tacheron joue : nFDbFAaF,33,13
+On joue : mADlA,33,13
+negamax took: 31ms
+
+(33:13) Tacheron joue : bFDkF,33,13
+On joue : lADkA,33,13
 negamax took: 47ms
 
-(34:11) Tacheron joue : kCDkC,34,11
-On joue : bADaA,34,11
+(33:13) Tacheron joue : kFDkM,33,13
+On joue : kADjA,33,13
+negamax took: 31ms
+
+(33:13) Tacheron joue : dCDdI,33,13
+On joue : jADiA,33,13
+negamax took: 32ms
+
+(33:13) Tacheron joue : dIDdD,33,13
+On joue : iADhA,33,13
+negamax took: 46ms
+
+(33:13) Tacheron joue : kMDcM,33,13
+On joue : hADgA,33,13
+negamax took: 32ms
+
+(33:13) Tacheron joue : fLDlL,33,13
+On joue : gADfA,33,13
 negamax took: 47ms
 
-(34:11) Tacheron joue : gGDgH,34,11
-On joue : aADbA,34,11
+(33:13) Tacheron joue : lNDmN,33,13
+On joue : fADeA,33,13
+negamax took: 31ms
+
+(33:13) Tacheron joue : mNDaN,33,13
+On joue : eADdA,33,13
+negamax took: 31ms
+
+(33:13) Tacheron joue : cMDcB,33,13
+On joue : dADcAAcB,29,11
 negamax took: 47ms
 
-(34:11) Tacheron joue : kCDgC,34,11
-On joue : bADaA,34,11
+(33:13) Tacheron joue : cBDcBAcA,30,9
+On joue : cADbA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : dDDdD,30,9
+On joue : bADaA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : iJDnJ,30,9
+On joue : aADbA,30,9
 negamax took: 47ms
 
-(34:11) Tacheron joue : cCDeC,34,11
-On joue : aADbA,34,11
+(30:9) Tacheron joue : aNDaN,30,9
+On joue : bADaA,30,9
+negamax took: 32ms
+
+(30:9) Tacheron joue : lLDbL,30,9
+On joue : aADbA,30,9
+negamax took: 46ms
+
+(30:9) Tacheron joue : dDDjD,30,9
+On joue : bADaA,30,9
+negamax took: 32ms
+
+(30:9) Tacheron joue : aNDbN,30,9
+On joue : aADbA,30,9
 negamax took: 47ms
 
-(34:11) Tacheron joue : jMDjL,34,11
-On joue : bADaA,34,11
-negamax took: 62ms
+(30:9) Tacheron joue : hDDiD,30,9
+On joue : bADaA,30,9
+negamax took: 31ms
 
-(34:11) Tacheron joue : eCDiCAhC,34,10
-On joue : aADbA,34,10
+(30:9) Tacheron joue : bLDbE,30,9
+On joue : aADbA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : iDDeD,30,9
+On joue : bADaA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : eDDhD,30,9
+On joue : aADbA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : nJDnK,30,9
+On joue : bADaA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : nKDnD,30,9
+On joue : aADbA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : cBDcE,30,9
+On joue : bADaA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : nDDlD,30,9
+On joue : aADbA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : hDDhC,30,9
+On joue : bADaA,30,9
 negamax took: 32ms
 
-(34:10) Tacheron joue : gHDeH,34,10
-On joue : bADaA,34,10
+(30:9) Tacheron joue : hCDfC,30,9
+On joue : aADbA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : jDDgD,30,9
+On joue : bADaA,30,9
 negamax took: 31ms
 
-(34:10) Tacheron joue : gEDgM,34,10
-On joue : aADbA,34,10
+(30:9) Tacheron joue : bNDbN,30,9
+On joue : aADbA,30,9
 negamax took: 31ms
 
-(34:10) Tacheron joue : gCDgC,34,10
-On joue : bADaA,34,10
+(30:9) Tacheron joue : gDDnD,30,9
+On joue : bADaA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : bNDbH,30,9
+On joue : aADbA,30,9
 negamax took: 31ms
 
-(34:10) Tacheron joue : gMDgB,34,10
-On joue : aADbA,34,10
+(30:9) Tacheron joue : fCDfA,30,9
+On joue : bADaA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : nDDnD,30,9
+On joue : aADbA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : nDDnI,30,9
+On joue : bADaA,30,9
 negamax took: 32ms
 
-(34:10) Tacheron joue : gCDdC,34,10
-On joue : bADaA,34,10
+(30:9) Tacheron joue : fADfK,30,9
+On joue : aADbA,30,9
 negamax took: 31ms
 
-(34:10) Tacheron joue : gBDaBAaA,34,9
-On joue : nEDmE,34,9
+(30:9) Tacheron joue : cEDcB,30,9
+On joue : bADaA,30,9
+negamax took: 47ms
+
+(30:9) Tacheron joue : bHDnH,30,9
+On joue : aADbA,30,9
+negamax took: 31ms
+
+(30:9) Tacheron joue : bEDbBAbA,28,5
+On joue : nEDmE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : cBDmB,28,5
+On joue : mEDlEAlD,24,3
+negamax took: 31ms
+
+(28:5) Tacheron joue : fKDfJ,28,5
+On joue : lEDkE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : dCDeC,34,9
-On joue : mEDlE,34,9
+(28:5) Tacheron joue : fJDfK,28,5
+On joue : kEDjE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : fKDfB,28,5
+On joue : jEDiE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : fBDeB,28,5
+On joue : iEDhE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : eBDeF,28,5
+On joue : hEDgE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : bBDlB,28,5
+On joue : gEDfE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : lDDlE,28,5
+On joue : fEDeEAeF,24,2
+negamax took: 16ms
+
+(28:5) Tacheron joue : lBDlL,28,5
+On joue : eEDdE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : lLDlN,28,5
+On joue : dEDcE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nIDnD,28,5
+On joue : cEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : eFDeN,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : nHDgH,28,5
+On joue : aEDbE,28,5
 negamax took: 32ms
 
-(34:9) Tacheron joue : aBDaG,34,9
-On joue : lEDkE,34,9
+(28:5) Tacheron joue : eNDeN,28,5
+On joue : bEDaE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : aGDgG,34,9
-On joue : kEDjE,34,9
+(28:5) Tacheron joue : mBDlB,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : jLDjJ,34,9
-On joue : jEDiE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : fIDdI,34,9
-On joue : iEDhE,34,9
+(28:5) Tacheron joue : gHDgB,28,5
+On joue : bEDaE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : gGDkG,34,9
-On joue : hEDgE,34,9
+(28:5) Tacheron joue : gBDgB,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : iCDmC,34,9
-On joue : gEDfE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : eCDeG,34,9
-On joue : fEDeE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : kGDaG,34,9
-On joue : eEDdE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mCDeC,34,9
-On joue : dEDcE,34,9
+(28:5) Tacheron joue : lNDlA,28,5
+On joue : bEDaE,28,5
 negamax took: 31ms
 
-(34:9) Tacheron joue : dIDdN,34,9
-On joue : cEDbE,34,9
+(28:5) Tacheron joue : lEDmE,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : dNDmN,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : lADdA,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : gBDgG,28,5
+On joue : aEDbE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : jJDnJ,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : eNDdN,28,5
+On joue : bEDaE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : lNDlL,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : gGDgC,28,5
+On joue : aEDbE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : eGDfG,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : fGDbG,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : eHDeN,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : nJDnN,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nNDnF,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : eNDeJ,34,9
-On joue : bEDaE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : mNDmN,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : bGDbG,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nFDjF,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mNDgN,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : eCDeM,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : bGDnG,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : lLDlJ,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : jFDaF,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : eJDeG,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : gNDgA,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : eGDbG,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : nGDnB,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : lJDkJ,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : aGDaI,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : kJDkI,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : eMDmM,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : gADgN,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : aIDhI,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 31ms
-
-(34:9) Tacheron joue : nBDgB,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mMDjM,34,9
-On joue : bEDaEAaF,30,7
-negamax took: 15ms
-
-(34:9) Tacheron joue : aFDmF,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : bGDaG,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : gBDdB,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : jMDlM,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : kIDkF,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : hIDhJ,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : lMDaM,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mFDmL,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : gNDeN,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : aMDaH,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : lBDlJ,28,5
+On joue : bEDaE,28,5
 negamax took: 32ms
 
-(34:9) Tacheron joue : aHDaK,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : gCDbC,28,5
+On joue : aEDbE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : aKDaH,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : dNDiN,28,5
+On joue : bEDaE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : dBDmB,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : iNDnN,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : eNDeJ,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : lJDlD,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : mEDkE,28,5
+On joue : aEDbE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : aGDaL,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : dADjA,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nDDnD,28,5
+On joue : aEDbE,28,5
 negamax took: 31ms
 
-(34:9) Tacheron joue : mLDmF,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : nDDnF,28,5
+On joue : bEDaE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : mFDmC,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : kEDkI,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : hJDhK,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : jADjG,28,5
+On joue : bEDaE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : eJDmJ,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : bCDbM,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : aLDaE,34,9
-On joue : bEDcE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mBDmA,34,9
-On joue : cEDbEAaE,28,7
-negamax took: 15ms
-
-(34:9) Tacheron joue : mJDmI,34,9
-On joue : bEDcE,34,9
+(28:5) Tacheron joue : nFDdF,28,5
+On joue : bEDaE,28,5
 negamax took: 31ms
 
-(34:9) Tacheron joue : aEDeE,34,9
-On joue : cEDbE,34,9
+(28:5) Tacheron joue : bMDaM,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : mIDmL,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : hKDcK,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : dFDcF,28,5
+On joue : bEDaE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : aHDaI,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : kIDkG,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : cKDcL,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : aIDkI,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mCDmE,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : nNDdN,28,5
+On joue : bEDaE,28,5
 negamax took: 31ms
 
-(34:9) Tacheron joue : kIDmI,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : kGDnG,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : mLDmC,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : kFDlF,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : jGDfG,28,5
+On joue : bEDaE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : eEDgE,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : nGDnJ,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : mCDbC,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mIDhI,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : lDDhD,28,5
+On joue : bEDaE,28,5
 negamax took: 31ms
 
-(34:9) Tacheron joue : cLDcC,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : bCDbH,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : nJDfJ,28,5
+On joue : aEDbE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : bHDmH,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : aMDaG,28,5
+On joue : bEDaE,28,5
 negamax took: 16ms
 
-(34:9) Tacheron joue : hIDhK,34,9
-On joue : aEDbE,34,9
+(28:5) Tacheron joue : hDDjD,28,5
+On joue : aEDbE,28,5
 negamax took: 15ms
 
-(34:9) Tacheron joue : cCDhC,34,9
-On joue : bEDaE,34,9
+(28:5) Tacheron joue : jDDjE,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : fGDfH,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : fJDcJ,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : dNDeN,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : fHDbH,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : eNDeK,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : bHDfH,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : cJDnJ,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : aGDaC,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : fHDjH,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : cFDcN,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : aCDgC,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : gCDcC,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : cNDhN,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : eKDmK,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : hNDnN,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : cCDkC,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : mKDmL,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jHDjM,28,5
+On joue : bEDaE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : mLDjL,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nJDnK,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : nNDnA,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jLDjF,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nKDnD,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : jEDhE,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : kCDkI,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : nDDnH,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nADnD,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : hEDiE,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : kIDbI,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jMDlM,28,5
+On joue : bEDaE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : bIDmI,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : mIDcI,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : iEDbE,28,5
+On joue : aEDcEAbE,27,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : cIDcF,28,5
+On joue : cEDaEAbE,27,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nHDnM,28,5
+On joue : aEDcEAbE,27,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : bEDbA,28,5
+On joue : cEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : cFDcA,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : cADiA,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : iADiN,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : lMDlA,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : iNDbN,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : lADcA,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jFDjF,28,5
+On joue : bEDaE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : jFDjL,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : bADbM,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : nDDhD,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jLDjB,28,5
+On joue : bEDaE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : cADcC,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : bMDaM,28,5
+On joue : bEDaE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : bNDbI,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : jBDjG,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : aMDaJ,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : bIDlI,28,5
+On joue : bEDaE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : nMDnE,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : aJDhJ,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : nEDfE,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : jGDjM,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : hJDhK,28,5
+On joue : aEDbE,28,5
+negamax took: 31ms
+
+(28:5) Tacheron joue : lIDdI,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : dIDdM,28,5
+On joue : aEDbE,28,5
+negamax took: 15ms
+
+(28:5) Tacheron joue : jMDjE,28,5
+On joue : bEDaE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : hDDeD,28,5
+On joue : aEDbE,28,5
+negamax took: 16ms
+
+(28:5) Tacheron joue : fEDcEAbE,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : eDDkD,26,1
+On joue : aEDbEAcE,24,0
+negamax took: 16ms
+
+(26:1) Tacheron joue : dMDbM,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : kDDcD,26,1
+On joue : aEDbEAcE,24,0
+negamax took: 16ms
+
+(26:1) Tacheron joue : cDDbD,26,1
+On joue : bEDaE,26,1
+negamax took: 31ms
+
+(26:1) Tacheron joue : jEDnE,26,1
+On joue : aEDbEAcE,24,0
+negamax took: 16ms
+
+(26:1) Tacheron joue : bMDfM,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : cEDhE,26,1
+On joue : aEDbEAbD,24,0
+negamax took: 16ms
+
+(26:1) Tacheron joue : bDDbD,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : hKDmK,26,1
+On joue : aEDbEAbD,24,0
+negamax took: 31ms
+
+(26:1) Tacheron joue : cCDmC,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : mCDmB,26,1
+On joue : aEDbEAbD,24,0
+negamax took: 16ms
+
+(26:1) Tacheron joue : mBDmI,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : fMDbM,26,1
+On joue : aEDbEAbD,24,0
+negamax took: 15ms
+
+(26:1) Tacheron joue : mIDcI,26,1
+On joue : bEDaE,26,1
 negamax took: 32ms
 
-(34:9) Tacheron joue : hKDfK,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : hEDhH,26,1
+On joue : aEDbEAbD,24,0
 negamax took: 15ms
 
-(34:9) Tacheron joue : mADmB,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : hHDhD,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : lFDlK,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : mKDmK,26,1
+On joue : aEDbEAbD,24,0
 negamax took: 15ms
 
-(34:9) Tacheron joue : hCDhJ,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : fKDfJ,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mHDmI,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mIDmJ,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : hJDhH,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mEDlE,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : fJDfC,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : lEDlL,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : lLDlL,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : gEDlE,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : hHDhL,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : hLDeL,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : eLDeE,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : eEDeI,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : fCDfB,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : eIDjI,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : lKDlI,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mBDiB,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : mJDmJ,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : jIDaI,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : lLDnL,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : lEDlL,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mJDmD,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : bDDbG,26,1
+On joue : bEDaE,26,1
 negamax took: 32ms
 
-(34:9) Tacheron joue : fBDfE,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : bMDeM,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : lIDcI,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : mKDmK,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : iBDdB,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : eMDmM,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : dBDdD,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : bGDmG,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : lLDkL,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : dDDhD,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : fEDnE,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : cIDmI,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : mGDdG,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : hDDhC,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : hDDhD,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : nLDnK,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : hDDhA,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : aIDhI,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : hADhG,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : hIDhL,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : cIDcN,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : hCDhH,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : nKDaK,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : cNDcA,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : kLDnL,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : mKDmL,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : hHDgH,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : dGDiG,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : nLDnI,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nEDnA,34,9
-On joue : bEDaE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : gHDcH,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : mMDmI,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : aKDaD,34,9
-On joue : bEDaEAaD,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : cHDcG,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nIDnC,34,9
-On joue : bEDaEAaD,30,7
-negamax took: 15ms
-
-(34:9) Tacheron joue : aDDaH,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nADbA,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : aHDiH,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : iHDiB,34,9
-On joue : bEDaE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : mDDaD,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : bADbL,34,9
-On joue : bEDaEAaD,30,7
-negamax took: 16ms
-
-(34:9) Tacheron joue : bLDdL,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : iBDlB,34,9
-On joue : bEDaEAaD,30,7
+(26:1) Tacheron joue : iGDiA,26,1
+On joue : bEDaE,26,1
 negamax took: 32ms
 
-(34:9) Tacheron joue : nCDnL,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : mLDgL,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : mIDgI,34,9
-On joue : bEDaEAaD,30,7
+(26:1) Tacheron joue : iADiL,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : gIDgH,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : cADjA,26,1
+On joue : aEDbE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : nEDnC,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : cGDaG,34,9
-On joue : bEDaEAaD,30,7
+(26:1) Tacheron joue : jADmA,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : aGDcG,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : nLDaL,34,9
-On joue : bEDaEAaD,30,7
-negamax took: 31ms
-
-(34:9) Tacheron joue : cGDeG,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : dLDdJ,34,9
-On joue : bEDaEAaD,30,7
+(26:1) Tacheron joue : mIDjI,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : lBDbB,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : gLDdL,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(34:9) Tacheron joue : bBDbA,34,9
-On joue : bEDaEAaD,30,7
+(26:1) Tacheron joue : mADmJ,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : dLDdH,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : bADnA,34,9
-On joue : aEDbE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : aDDlD,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : gHDgD,34,9
-On joue : aEDbE,34,9
-negamax took: 31ms
-
-(34:9) Tacheron joue : hLDhE,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : hEDhJ,34,9
-On joue : aEDbE,34,9
-negamax took: 15ms
-
-(34:9) Tacheron joue : lDDlD,34,9
-On joue : bEDaE,34,9
-negamax took: 16ms
-
-(34:9) Tacheron joue : gDDbD,34,9
-On joue : aEDbEAbD,28,5
-negamax took: 15ms
-
-(34:9) Tacheron joue : bDDbA,34,9
-On joue : bEDaE,34,9
+(26:1) Tacheron joue : hGDlG,26,1
+On joue : bEDaE,26,1
 negamax took: 32ms
 
-(34:9) Tacheron joue : dJDkJ,34,9
-On joue : aEDbE,34,9
+(26:1) Tacheron joue : lGDcG,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(34:9) Tacheron joue : bADbDAbE,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : iLDkL,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : hJDhE,30,3
-On joue : aEDbEAbD,27,1
-negamax took: 16ms
-
-(30:3) Tacheron joue : eGDeG,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : cGDcK,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(30:3) Tacheron joue : bDDaD,30,3
-On joue : aEDbE,30,3
-negamax took: 31ms
-
-(30:3) Tacheron joue : nADfA,30,3
-On joue : bEDaEAaD,27,1
+(26:1) Tacheron joue : nCDkC,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : aDDkD,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : dHDjH,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : hEDkE,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : jIDjG,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(30:3) Tacheron joue : aLDaC,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : kLDkF,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : fADfB,30,3
-On joue : bEDaE,30,3
-negamax took: 31ms
-
-(30:3) Tacheron joue : kEDeE,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : jGDjD,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : eGDnG,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : mJDfJ,26,1
+On joue : aEDbE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : fJDfC,26,1
+On joue : bEDaE,26,1
 negamax took: 15ms
 
-(30:3) Tacheron joue : kJDmJ,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : jHDjI,26,1
+On joue : aEDbE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : aCDaL,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : kCDbC,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : nGDnC,30,3
-On joue : aEDbE,30,3
-negamax took: 31ms
-
-(30:3) Tacheron joue : lDDlN,30,3
-On joue : bEDaE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : kDDkN,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : fCDfN,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(30:3) Tacheron joue : kNDhN,30,3
-On joue : bEDaE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : nCDnG,30,3
-On joue : aEDbE,30,3
-negamax took: 15ms
-
-(30:3) Tacheron joue : nGDnK,30,3
-On joue : bEDaE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : hNDhH,30,3
-On joue : aEDbE,30,3
-negamax took: 31ms
-
-(30:3) Tacheron joue : aLDcL,30,3
-On joue : bEDaE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : eEDdE,30,3
-On joue : aEDbE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : lNDiN,30,3
-On joue : bEDaE,30,3
-negamax took: 15ms
-
-(30:3) Tacheron joue : nKDnL,30,3
-On joue : aEDbE,30,3
-negamax took: 16ms
-
-(30:3) Tacheron joue : hHDhE,30,3
-On joue : bEDaE,30,3
-negamax took: 15ms
-
-(30:3) Tacheron joue : mJDgJ,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : bCDkC,26,1
+On joue : bEDaE,26,1
 negamax took: 32ms
 
-(30:3) Tacheron joue : iNDiJ,30,3
-On joue : bEDaE,30,3
+(26:1) Tacheron joue : jDDjA,26,1
+On joue : aEDbE,26,1
 negamax took: 15ms
 
-(30:3) Tacheron joue : hEDhE,30,3
-On joue : aEDbE,30,3
+(26:1) Tacheron joue : jIDfI,26,1
+On joue : bEDaE,26,1
 negamax took: 16ms
 
-(30:3) Tacheron joue : hEDaEAbE,29,0
+(26:1) Tacheron joue : jADjI,26,1
+On joue : aEDbE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : fIDgI,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : fNDaN,26,1
+On joue : aEDbE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : gIDhI,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : hIDiI,26,1
+On joue : aEDbE,26,1
+negamax took: 32ms
+
+(26:1) Tacheron joue : aNDjN,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : jNDjD,26,1
+On joue : aEDbE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : iIDfI,26,1
+On joue : bEDaE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : fIDfH,26,1
+On joue : aEDbE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : cKDkK,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : kKDkD,26,1
+On joue : aEDbE,26,1
+negamax took: 31ms
+
+(26:1) Tacheron joue : jDDjH,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : jIDkI,26,1
+On joue : aEDbE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : kDDnD,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : kIDmI,26,1
+On joue : aEDbE,26,1
+negamax took: 15ms
+
+(26:1) Tacheron joue : mIDmK,26,1
+On joue : bEDaE,26,1
+negamax took: 16ms
+
+(26:1) Tacheron joue : nDDaDAaE,26,0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

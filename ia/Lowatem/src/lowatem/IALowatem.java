@@ -151,7 +151,7 @@ public class IALowatem {
             grandOrdo.envoyerAction(actionJouee);
             mettreAJour(plateau, actionJouee);*/
             
-            negamax(plateau, DEPTH, (couleur == 'R') ? 1:-1, joueurLowatem, nbToursJeu);
+            negamax(plateau, DEPTH, (couleur == 'R') ? -1:1, joueurLowatem);
         } else {
             // Problème : le serveur vous demande une action alors que vous n'en
             // trouvez plus...
@@ -161,7 +161,7 @@ public class IALowatem {
 
     }
     
-    public int negamax(Case[][] plateau, int depth, int couleur, JoueurLowatem joueurLowatem, int nbToursJeu) {
+public int negamax(Case[][] plateau, int depth, int couleur, JoueurLowatem joueurLowatem) {
         NbPointsDeVie nbPv = JoueurLowatem.nbPointsDeVie(plateau);
         if (depth == 0 || partieFinie(nbPv)) {
             return couleur * heuristicValue(plateau, nbPv);
@@ -169,11 +169,11 @@ public class IALowatem {
         int bestScore = -Integer.MIN_VALUE;
         String bestAction = "";
         String[] actionsPossibles = ActionsPossibles.nettoyerTableau(
-                joueurLowatem.actionsPossibles(plateau, (couleur == 1) ? 'R':'N', 6));
+                joueurLowatem.actionsPossibles(plateau, (couleur == -1) ? 'R':'N', 6));
         for (String action : actionsPossibles) {
             Case[][] copiePlateau = deepCopy(plateau);
             mettreAJour(copiePlateau, action);
-            int scoreAction = -negamax(copiePlateau, depth - 1, -couleur, joueurLowatem, nbToursJeu);
+            int scoreAction = -negamax(copiePlateau, depth - 1, -couleur, joueurLowatem);
             if (scoreAction > bestScore) {
                 bestScore = scoreAction;
                 bestAction = action;
