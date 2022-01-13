@@ -151,7 +151,20 @@ public class IALowatem {
             grandOrdo.envoyerAction(actionJouee);
             mettreAJour(plateau, actionJouee);*/
             
-            negamax(plateau, DEPTH, (couleur == 'R') ? 1:-1, joueurLowatem, nbToursJeu);
+            //negamax(plateau, DEPTH, (couleur == 'R') ? 1:-1, joueurLowatem, "test,1,1");
+            int worstScoreN = 10000;
+            System.out.println(Arrays.deepToString(actionsPossibles));
+            String bestAction = actionsPossibles[0];
+            for (String action: actionsPossibles) {
+                int pvN = Integer.parseInt(action.split(",")[action.split(",").length-1]);
+                if (worstScoreN > pvN) {
+                    worstScoreN = pvN;
+                    bestAction = action;
+                }
+            }
+            System.out.println("On joue : " + bestAction + " worstScore: " + worstScoreN);
+            grandOrdo.envoyerAction(ActionsPossibles.enleverPointsDeVie(bestAction));
+            mettreAJour(plateau, bestAction);
         } else {
             // Problème : le serveur vous demande une action alors que vous n'en
             // trouvez plus...
@@ -160,30 +173,36 @@ public class IALowatem {
         }
 
     }
-    
-    public int negamax(Case[][] plateau, int depth, int couleur, JoueurLowatem joueurLowatem, int nbToursJeu) {
-        NbPointsDeVie nbPv = JoueurLowatem.nbPointsDeVie(plateau);
+
+    public int negamax(Case[][] plateau, int depth, int couleur, JoueurLowatem joueurLowatem, String actionChoisie) {
+        String[] sActionChoisie = actionChoisie.split(",");
+        int pvN = Integer.parseInt(sActionChoisie[sActionChoisie.length-1]);
+        int pvR = Integer.parseInt(sActionChoisie[sActionChoisie.length-2]);
+        NbPointsDeVie nbPv = new NbPointsDeVie(pvR, pvN);
         if (depth == 0 || partieFinie(nbPv)) {
-            return couleur * heuristicValue(plateau, nbPv);
+            return couleur * heuristicValue(nbPv);
         }
-        int bestScore = -Integer.MIN_VALUE;
+        int bestScore = Integer.MIN_VALUE;
         String bestAction = "";
         String[] actionsPossibles = ActionsPossibles.nettoyerTableau(
                 joueurLowatem.actionsPossibles(plateau, (couleur == 1) ? 'R':'N', 6));
+        int[] values = new int[actionsPossibles.length];
+        int count = 0;
         for (String action : actionsPossibles) {
             Case[][] copiePlateau = deepCopy(plateau);
             mettreAJour(copiePlateau, action);
-            int scoreAction = -negamax(copiePlateau, depth - 1, -couleur, joueurLowatem, nbToursJeu);
+            int scoreAction = -negamax(copiePlateau, depth - 1, -couleur, joueurLowatem, action);
+            values[count] = scoreAction;
             if (scoreAction > bestScore) {
                 bestScore = scoreAction;
                 bestAction = action;
             }
+            count++;
         }
         if (depth == DEPTH) {
-            System.out.println(Arrays.deepToString(actionsPossibles));
-            System.out.println("On joue : " + bestAction);
-            grandOrdo.envoyerAction(ActionsPossibles.enleverPointsDeVie(bestAction));
+            System.out.println("On joue : " + bestAction + " bestScore: " + bestScore);
             mettreAJour(plateau, bestAction);
+            grandOrdo.envoyerAction(ActionsPossibles.enleverPointsDeVie(bestAction));
         }
         return bestScore;
     }
@@ -198,7 +217,7 @@ public class IALowatem {
         return plateauCopie;
     }
                 
-    public int heuristicValue(Case[][] plateau, NbPointsDeVie nbPv) {
+    public int heuristicValue(NbPointsDeVie nbPv) {
         return nbPv.nbPvRouge - nbPv.nbPvNoir;
     }
     
